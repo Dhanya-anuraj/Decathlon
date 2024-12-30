@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decathlon</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <div class="main"> -->
+      <!-- Navbar -->
+      <div class="nav ">
+          <nav class="shadow navbar navbar-expand-lg bg-body-tertiary  "
+            style=" width: 100%; position: fixed;z-index: 5; background-color: white;">
+            <div class="container-fluid">
+              <img style="width: 150px; height:80px;" src="./images-removebg-preview (1).png" alt="logo">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
+                  <li class="nav-item">
+                    <a class="nav-link active me-3" style="color: blue; font-weight: 700;" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active me-3"  href="./men.html">Men</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active me-3" href="./womens_page.html">Women</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active me-3" href="./fitness.html">Sports Equipments</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active me-3" href="./sportswear.html">SportsWear</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                  <li class="nav-item me-3">
+                    <a class="nav-link active me-3" href="./New folder/form.html">Support</a>
+                  </li>
+                  <li class="nav-item me-3">
+                    <a class="nav-link active me-3" href="./about.html">About</a>
+                  </li>
+                  <!-- Hide these items below 992px -->
+                  <li class="nav-item me-3 d-none d-lg-block">
+                    <a href="./add.html" style="text-decoration: none;"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+                  </li>
+                  <!-- <li class="nav-item me-5 d-none d-lg-block">
+                    <i class="fa-regular fa-user fa-lg"></i>
+                  </li> -->
+                </ul>
+    
+              </div>
+            </div>
+          </nav>
+        </div>
+        <!-- carosel -->
+        <div class="container-fluid">
+          <div style="margin-top: 130px;">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                  <img
+                    src="https://contents.mediadecathlon.com/s1173296/k$122c7c376d86b2dc1b827111e251d54b/defaut.jpg?format=auto&quality=70&f=2520x0"
+                    class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+
+                    <!-- <a href="#" class="btn rounded-3 " id="view-work">Buy Now</a> -->
+                  </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                  <img
+                    src="https://contents.mediadecathlon.com/s1173293/k$7c09cc118685e8271136488b707be91f/defaut.jpg?format=auto&quality=70&f=2520x0"
+                    class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+
+                    <!-- <a href="#" class="btn rounded-3 " id="view-work">Buy Now</a> -->
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://contents.mediadecathlon.com/s1173290/k$d809b2c16c72e91bdba68367d284d52e/defaut.jpg?format=auto&quality=70&f=2520x0"
+                    class="d-block w-100" alt="...">
+                  <div class="carousel-caption d-none d-md-block">
+
+                    <!-- <a href="#" class="btn rounded-3 " id="view-work">Buy Now</a> -->
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+    
+        </div>
+        <!-- nav cards -->
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; margin: 20px;">
+          <div style="width: calc(33.33% - 20px); max-width: 200px; height: auto; text-align: center; margin: 10px;">
+            <a href="./men.html" style="text-decoration: none;color: black;">
+              <img src="https://contents.mediadecathlon.com/s1142061/k$0f2bad10e3e45d6548c95cddcc42857b/defaut.jpg?format=auto&quality=70&f=768x0" alt="Men's Wear" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px;">
+              <p style="margin-top: 10px;">Men</p>
+            </a>
+          </div>
+          <div style="width: calc(33.33% - 20px); max-width: 200px; height: auto; text-align: center; margin: 10px;">
+            <a href="./womens_page.html" style="text-decoration: none;color: black;">
+              <img src="https://contents.mediadecathlon.com/s1142065/k$a7448d7abfe0bf87920e10ceb648015c/defaut.jpg?format=auto&quality=70&f=768x0" alt="Women's Wear" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px;">
+              <p style="margin-top: 10px;">Women</p>
+            </a>
+          </div>
+          <div style="width: calc(33.33% - 20px); max-width: 200px; height: auto; text-align: center; margin: 10px;">
+            <a href="./bags.html"  style="text-decoration: none;color: black;">
+              <img src="https://contents.mediadecathlon.com/s1152455/k$4265588cd8ccf1bc9e3341e94a4c5fb5/defaut.jpg?format=auto&quality=70&f=768x0" alt="Kids' Wear" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px;">
+              <p style="margin-top: 10px;">Bags & <br>Backpacks</p>
+            </a>
+          </div>
+          <div style="width: calc(33.33% - 20px); max-width: 200px; height: auto; text-align: center; margin: 10px;">
+            <a href="./New folder/shoes.html" style="text-decoration: none;color: black;">
+              <img src="https://contents.mediadecathlon.com/s1142062/k$ace5a156a4281b2df85aa2b356be6742/defaut.jpg?format=auto&quality=70&f=768x0" alt="Shoes" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px;">
+              <p style="margin-top: 10px;">Shoes</p>
+            </a>
+          </div>
+          <!-- <div style="width: calc(33.33% - 20px); max-width: 200px; height: auto; text-align: center; margin: 10px;">
+            <a href="" style="text-decoration: none;color: black;">
+              <img src="https://contents.mediadecathlon.com/s1174515/k$aeb2f577d4b17571d9a2c044e498db0f/defaut.jpg?format=auto&quality=70&f=768x0" alt="Shoes" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px;">
+              <p style="margin-top: 10px;"> Equipments & <br>Cycle </p>
+            </a>
+          </div> -->
+          <div style="width: calc(33.33% - 20px); max-width: 200px; height: auto; text-align: center; margin: 10px;">
+            <a href="./sportsgear.html" style="text-decoration: none;color: black;">
+              <img src="https://contents.mediadecathlon.com/s1142394/k$b82c140693eebf968989fee4c7b41e4b/defaut.png?format=auto&quality=70&f=768x0" alt="Shoes" style="width: 100%; height: 150px; object-fit: contain; border-radius: 5px;">
+              <p style="margin-top: 10px;">Sports Accessories</p>
+            </a>
+          </div>
+        </div>
+        <!-- cards -->
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; margin: 20px;">
+          <div class="card rounded-2 border-0" style="width: 22rem;">
+            <img src="https://contents.mediadecathlon.com/s1168691/k$b5adb196325324977d2b285bc2708dea/defaut.jpg?format=auto&quality=70&f=1024x0" class="card-img-top" alt="...">
+          </div>
+          <div class="card rounded-2 border-0" style="width: 22rem;">
+            <img src="https://contents.mediadecathlon.com/s1168692/k$ee43230f3506361b0c57e01041a75b60/defaut.jpg?format=auto&quality=70&f=1024x0" class="card-img-top" alt="...">
+          </div>
+          <div class="card rounded-2 border-0" style="width: 22rem;">
+            <img src="https://contents.mediadecathlon.com/s1168694/k$b985148e7be45bd3a62f533090161c44/defaut.jpg?format=auto&quality=70&f=1024x0" class="card-img-top" alt="...">
+          </div>
+          <div class="card rounded-2 border-0" style="width: 22rem;">
+            <img src="https://contents.mediadecathlon.com/s1168695/k$7900ab17478ce09f13b12c1befdcb957/defaut.jpg?format=auto&quality=70&f=1024x0" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="container-fluid mt-5">
+          <b><h4 style="margin-bottom: 1.5rem;">BOOK YOUR SLOT TODAY</h4></b>
+          <div class="row justify-content-center">
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="service-card" style="position: relative; color: white; text-align: center; margin-bottom: 20px; border-radius: 15px;">
+                      <a href="./New folder/service.html">
+                          <img class="img-fluid" 
+                               src="https://contents.mediadecathlon.com/s1084216/k$ffd19e237d9d415d526d8369705d2534/defaut.jpg?format=auto&quality=70&f=768x0"
+                               alt="Cycle Servicing" 
+                               style="width: 100%; height: 100%; object-fit: cover; border-radius: 15px;">
+                      </a>
+                  </div>
+              </div>
+      
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="service-card" style="position: relative; color: white; text-align: center; margin-bottom: 20px; border-radius: 15px;">
+                      <a href="./New folder/service.html">
+                          <img class="img-fluid" 
+                               src="https://contents.mediadecathlon.com/s1084219/k$e52e894676dfc846a30cec1bae5b0659/defaut.jpg?format=auto&quality=70&f=768x0"
+                               alt="Racket Stringing" 
+                               style="width: 100%; height: 100%; object-fit: cover; border-radius: 15px;">
+                      </a>
+                  </div>
+              </div>
+      
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="service-card" style="position: relative; color: white; text-align: center; margin-bottom: 20px; border-radius: 15px;">
+                      <a href="./New folder/service.html">
+                          <img class="img-fluid" 
+                               src="https://contents.mediadecathlon.com/s1084217/k$d3e01a461f4d387f47b0588d68e093d0/defaut.jpg?format=auto&quality=70&f=768x0"
+                               alt="Get Your Quotation" 
+                               style="width: 100%; height: 100%; object-fit: cover; border-radius: 15px;">
+                      </a>
+                  </div>
+              </div>
+      
+              <div class="col-sm-6 col-md-4 col-lg-3">
+                  <div class="service-card" style="position: relative; color: white; text-align: center; margin-bottom: 20px; border-radius: 15px;">
+                      <a href="./New folder/index2.html">
+                          <img class="img-fluid" 
+                               src="https://contents.mediadecathlon.com/s1087040/k$599a9cb7f482f5404e5531b44a47682c/defaut.jpg?format=auto&quality=70&f=768x0"
+                               alt="Assisted Shopping" 
+                               style="width: 100%; height: 100%; object-fit: cover; border-radius: 15px;">
+                      </a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <!-- footer -->
+      <footer class="bg-light text-dark pt-5">
+        <div class="container-fluid">
+            <!-- Row for Our Promise and App Experience -->
+            <div class="row bg-secondary bg-opacity-10 p-3">
+                <div class="col-lg-8 col-md-12 mb-4 d-flex flex-wrap justify-content-between">
+                    <!-- Our Promise Section -->
+                    <div class="text-center flex-fill mb-2">
+                        <h5 class="fw-bold">OUR PROMISE</h5>
+                    </div>
+                    <div class="text-center flex-fill mb-2">
+                        <h5>% No cost EMI Available</h5>
+                    </div>
+                    <div class="text-center flex-fill mb-2">
+                        <h5>Easy Returns*</h5>
+                    </div>
+                    <div class="text-center flex-fill mb-2">
+                        <h5>1 million + happy customers</h5>
+                    </div>
+                </div>
+                <!-- App Store Section -->
+                <div class="col-lg-4 col-md-12 text-center border p-3">
+                    <h5>EXPERIENCE DECATHLON APP ON MOBILE</h5>
+                    <div class="d-flex justify-content-center align-items-center gap-2 mt-2">
+                        <img src="https://cdncontent.decathlon.in/_next/static/chunks/src/assets/img/appstore.b3fa2df12dd0536e.svg" alt="App Store" class="img-fluid" width="120">
+                        <img src="https://cdncontent.decathlon.in/_next/static/chunks/src/assets/img/google-play-badge.f6fa1f85049d9cdc.webp" alt="Google Play" class="img-fluid" width="120">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Row for Support, Services, About, Legal -->
+            <div class="row mt-5">
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>SUPPORT</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark">Contact our Stores</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Delivery</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>OUR SERVICES</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark">Decathlon for Schools</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Decathlon for Corporates</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Decathlon for Sport Clubs</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Decathlon Gift Cards</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Installation & Assembly Services</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>ABOUT US</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark">Who we are</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Careers</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Made In India</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>LEGAL</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none text-dark">Return Policy</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Terms and Conditions</a></li>
+                        <li><a href="#" class="text-decoration-none text-dark">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!-- Follow Us Section -->
+                <div class="col-lg-4 col-md-12 border p-3 text-center">
+                    <h6>FOLLOW US</h6>
+                    <div class="mt-3 d-flex justify-content-center gap-3">
+                        <i class="fa-brands fa-facebook fs-4"></i>
+                        <i class="fa-brands fa-instagram fs-4"></i>
+                        <i class="fa-brands fa-twitter fs-4"></i>
+                        <i class="fa-brands fa-youtube fs-4"></i>
+                    </div>
+                    <h6 class="mt-4">SPORT ADVICE FOR YOU</h6>
+                    <input type="text" class="form-control text-center mb-3" placeholder="blog.decathlon.in">
+                    <h6 class="mt-4">EXPLORE SPORTS EVENTS NEAR YOU</h6>
+                    <input type="text" class="form-control text-center" placeholder="play.decathlon.in">
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Payment Icons and Secure Transaction -->
+            <div class="row mb-4 text-center text-md-start">
+                <div class="col-md-3">
+                    <h6>100% SECURE TRANSACTION</h6>
+                    <p>Secure SSL encryption</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center gap-3">
+                    <img src="https://cdncontent.decathlon.in/_next/static/chunks/src/assets/img/debit.f4805e7bb82b5f2c.svg" width="60" alt="Debit Card">
+                    <img src="https://cdncontent.decathlon.in/_next/static/chunks/src/assets/img/credit.c05545ef381afd56.svg" width="60" alt="Credit Card">
+                    <img src="https://cdncontent.decathlon.in/_next/static/chunks/src/assets/img/upi.83e3b6a59314da78.svg" width="60" alt="UPI">
+                    <img src="https://cdncontent.decathlon.in/_next/static/chunks/src/assets/img/net_banking.304011d4bbd25b7e.svg" width="60" alt="Net Banking">
+                </div>
+                <div class="col-md-3">
+                    <button class="btn btn-outline-dark btn-sm w-100">Site Map</button>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Footer Copyright -->
+            <div class="text-center">
+                <p class="mb-0">&copy; 2024 Decathlon Sports India Pvt Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+      <!-- Media query for responsiveness -->
+      <style>
+          @media (max-width: 576px) {
+              .service-card {
+                  height: auto !important;
+              }
+      
+              .service-card img {
+                  height: auto !important;
+              }
+          }
+      </style>
+      
+    </div>
+</body>
+</html>

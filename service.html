@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decathlon Page</title>
+    <!-- Bootstrap CSS -->
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style1.css">
+</head>
+
+<body>
+    <div class="nav ">
+        <nav class="shadow navbar navbar-expand-lg bg-body-tertiary "
+          style=" width: 100%; position: fixed;z-index: 5;">
+          <div class="container-fluid">
+            <img style="width: 150px; height:80px;" src="./images-removebg-preview (1).png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
+                <li class="nav-item">
+                  <a class="nav-link active me-3"  href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active me-3"  href="../men.html">Men</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active me-3" href="../womens_page.html">Women</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active me-3" href="../fitness.html">Sports Equipments</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active me-3" href="../sportswear.html">SportsWear</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                <li class="nav-item me-3">
+                  <a class="nav-link active me-3" href="./form.html">Support</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link active me-3" href="../about.html">About</a>
+                </li>
+                <!-- Hide these items below 992px -->
+                <!-- <li class="nav-item me-3 d-none d-lg-block">
+                  <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                </li> -->
+                <li class="nav-item me-3 d-none d-lg-block">
+                  <a href="../add.html" style="text-decoration: none;"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+                </li>
+                <!-- <li class="nav-item me-5 d-none d-lg-block">
+                  <i class="fa-regular fa-user fa-lg"></i>
+                </li> -->
+              </ul>
+  
+            </div>
+          </div>
+        </nav>
+      </div>
+    <div class="container my-4">
+        <!-- Carousel -->
+        <div id="bannerCarousel" class="carousel slide " data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://decathlon.olik.in/workshop/static/media/WorkshopBanner.bbfcff0666ee7593ca75.jpg"
+                        class="d-block w-100" alt="Bicycle Repair">
+                    <div class="carousel-caption d-none d-md-block">
+
+                    </div>
+                </div> 
+                <div class="carousel-item">
+                    <img src="https://decathlon.olik.in/workshop/static/media/StringingBanner.b974f6aafe4fa6c1397c.jpg"
+                        class="d-block w-100" alt="Another Service">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- Services Section -->
+        <section class="mt-5">
+            <h3 class="text-center">Choose a Service</h3>
+            <div class="row mt-4">
+                <div class="col-md-3">
+                    <div class="card h-100 text-center p-3">
+                        <a href="./form.html"><img src="https://decathlon.olik.in/workshop/static/media/Workshop.70c24185ba8ce24d9e28.png"
+                            class="card-img-top mx-auto mt-3" style="height: 300px;" alt="Cycle Service"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Cycle Service</h5>
+                            <p class="card-text">Get your BTwin bicycle serviced by best technicians with genuine spare
+                                parts.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                   <div class="card h-100 text-center p-3">
+                    <a href="./form.html"><img src="https://decathlon.olik.in/workshop/static/media/Stringing.cb9191d31918946397fe.png"
+                            class="card-img-top mx-auto mt-3" style="height: 300px;" alt="Restringing Service"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Restringing Service</h5>
+                            <p class="card-text">Get the restringing done for any brand Badminton, Tennis, or Squash
+                                rackets.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                     <div class="card h-100 text-center p-3">
+                        <a href="./form.html"> <img src="https://decathlon.olik.in/workshop/static/media/AssistedSales.f242d8abf2e1f71b7ccc.png"
+                            class="card-img-top mx-auto mt-3" style="height: 300px;" alt="Expert Advisory"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Free Expert Advisory</h5>
+                            <p class="card-text">Get an appointment with an expert advisor at a store near you & make
+                                easy buying decisions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card h-100 text-center p-3">
+                       <a href="./form.html"> <img src="data:image/png;base64,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"
+                            class="card-img-top mx-auto mt-3" style="height: 300px;" alt="Buyback"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Buyback</h5>
+                            <p class="card-text">Get an estimate for your Bicycle, Scooter, or Fitness equipment and
+                                book a visit to the store for sell-back.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+
+</body>
+
+</html>

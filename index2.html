@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decathlon Selection Page</title>
+    <!-- Bootstrap CSS -->
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style2.css">
+
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="nav ">
+        <nav class="shadow navbar navbar-expand-lg bg-body-tertiary "
+          style=" width: 100%; position: fixed;z-index: 5;">
+          <div class="container-fluid">
+            <img style="width: 150px; height:80px;" src="./images-removebg-preview (1).png" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
+                <li class="nav-item">
+                  <a class="nav-link active me-3"  href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active me-3"  href="../men.html">Men</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active me-3" href="../womens_page.html">Women</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active me-3" href="../fitness.html">Sports Equipments</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active me-3" href="../sportswear.html">SportsWear</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                <li class="nav-item me-3">
+                  <a class="nav-link active me-3" href="./form.html">Support</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link active me-3" href="../about.html">About</a>
+                </li>
+                <!-- Hide these items below 992px -->
+                <!-- <li class="nav-item me-3 d-none d-lg-block">
+                  <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                </li> -->
+                <li class="nav-item me-3 d-none d-lg-block">
+                  <a href="../add.html" style="text-decoration: none;"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+                </li>
+                <!-- <li class="nav-item me-5 d-none d-lg-block">
+                  <i class="fa-regular fa-user fa-lg"></i>
+                </li> -->
+              </ul>
+  
+            </div>
+          </div>
+        </nav>
+      </div>
+
+    <!-- Carousel -->
+    <div class="container my-4" id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://decathlon.olik.in/workshop/static/media/WorkshopBanner.bbfcff0666ee7593ca75.jpg"
+                    class="d-block w-100" alt="Bicycle Repair">
+                <div class="carousel-caption d-none d-md-block">
+
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://decathlon.olik.in/workshop/static/media/StringingBanner.b974f6aafe4fa6c1397c.jpg"
+                    class="d-block w-100" alt="Another Service">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#bannerCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#bannerCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Content -->
+    <div class="container mt-4">
+        <h5 class="text-center mb-3">Please select Category and SubCategory you are interested in</h5>
+
+        <!-- Category Section -->
+        <h6>Select Category</h6>
+        <div class="d-flex flex-wrap justify-content-start">
+            <button class="btn btn-category">Outdoor Sports</button>
+            <button class="btn btn-category">Fitness Sports</button>
+            <button class="btn btn-category">Cycling</button>
+            <button class="btn btn-category">Running & Walking</button>
+            <button class="btn btn-category">Racket Sports</button>
+            <button class="btn btn-category">Water Sports</button>
+            <button class="btn btn-category">Team Sports</button>
+            <button class="btn btn-category">Skating & Roller Sports</button>
+            <button class="btn btn-category">Target Sports</button>
+        </div>
+
+        <!-- Subcategory Section -->
+        <h6 class="mt-4">Select SubCategory</h6>
+        <div class="d-flex flex-wrap justify-content-start">
+            <button class="btn btn-subcategory">Hiking</button>
+            <button class="btn btn-subcategory">Trekking</button>
+            <button class="btn btn-subcategory">Camping</button>
+            <button class="btn btn-subcategory">Wildlife Watching</button>
+            <button class="btn btn-subcategory">Skiing and Snowboarding</button>
+            <button class="btn btn-subcategory">Horse Riding</button>
+            <button class="btn btn-subcategory">Fishing</button>
+            <button class="btn btn-subcategory">Rock Climbing & Mountaineering</button>
+        </div>
+
+        <!-- Add Details Section -->
+        <h6 class="mt-4">Add Details <span class="text-muted">(Optional)</span></h6>
+        <textarea class="form-control mb-4" rows="3"
+            placeholder="Please mention details about what you are looking for"></textarea>
+
+        <!-- Submit Button -->
+        <div class="text-center">
+            <button class="btn btn-primary px-4 py-2">SEARCH</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

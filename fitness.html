@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Equipment :)</title>
+    <link rel="stylesheet" href="./fitness.css" />
+
+
+    <!-- bootstrap cdn links -->
+   <!-- Bootstrap -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+   integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+   <!-- FontAwesome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+ integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+ crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=swap" rel="stylesheet">
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Kablammo&family=Noto+Serif+Telugu:wght@100..900&family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <!-- FITNESS EQUIPMENTS -->
+    <div class="nav">
+      <nav class="shadow navbar navbar-expand-lg bg-body-tertiary"
+        style=" width: 100%; position: fixed;z-index: 5;background-color: white;">
+        <div class="container-fluid">
+          <img style="width: 150px; height:80px;" src="./images-removebg-preview (1).png" alt="logo">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link active me-3" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active me-3"  href="./men.html">Men</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active me-3" href="./womens_page.html">Women</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active me-3" style="color: blue; font-weight: 700;" aria-current="page" href="#">Sports Equipments</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active me-3" href="./sportswear.html">SportsWear</a>
+              </li>
+            </ul>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+              <li class="nav-item me-3">
+                <a class="nav-link active me-3" href="#">Support</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link active me-3" href="#">About</a>
+              </li>
+              <!-- Hide these items below 992px -->
+              <!-- <li class="nav-item me-3 d-none d-lg-block">
+                <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+              </li> -->
+              <li class="nav-item me-3 d-none d-lg-block">
+                <a href="./add.html" style="text-decoration: none;"><i class="fa-solid fa-cart-shopping fa-lg"></i></a>
+              </li>
+              <!-- <li class="nav-item me-5 d-none d-lg-block">
+                <i class="fa-regular fa-user fa-lg"></i>
+              </li> -->
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+    </div>
+ 
+    <!-- banner -->
+
+    <div class="text-center bg-light pt-5 py-5" id="banner">
+      <h1 class="display-1 fw-bold pt-3" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); ">Fitness Equipments</h1>
+      <p class="lead" style="font-weight: 900; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); ">      
+      Discover the best fitness equipment to help you stay active and healthy.
+      </p>
+      <button
+        class="btn rounded-0 btn-lg"
+        style="color: white; background-color: blue"
+      >
+        <a href="#sec1" style="text-decoration: none;color: aliceblue;">Shop Now</a>
+      </button>
+    </div>
+
+    <!-- dropdown -->
+    <div class="dropdown text-end me-5 mb-3 mt-4">
+      <button
+        class="btn rounded-0 dropdown-toggle"
+        type="button"
+        data-bs-toggle="dropdown"
+        id="button3"
+        aria-expanded="false"
+      >
+        Explore All
+      </button>
+      <ul class="dropdown-menu" id="dropbox">
+        <li>
+          <a class="dropdown-item active" id="dropitem" href="#sec1"
+            >--Fitness Categories--</a
+          >
+        </li>
+        <li>
+          <a class="dropdown-item" id="dropitem" href="#sec1">Yoga Mats</a>
+        </li>
+        <li>
+          <a class="dropdown-item" id="dropitem" href="#sec2"
+            >Dumbbells</a
+          >
+        </li>
+        <li>
+          <a class="dropdown-item" id="dropitem" href="#sec3"
+            >Resistance Bands</a
+          >
+        </li>
+
+        <li>
+          <a class="dropdown-item" id="dropitem" href="#sec4"
+            >Water Bottles</a
+          >
+        </li>
+
+        <li><hr class="dropdown-divider" /></li>
+        <li>
+          <a class="dropdown-item" id="dropitem" href="#sec1">View All Products</a>
+        </li>
+      </ul>
+    </div>
+
+
+    <!-- grids -->
+    <div class="container-fluid">
+      <!-- YOGA MATS -->
+      <h4 id="sec1">YOGA MATS</h4>
+      <div class="row mb-3">
+        <!-- yoga mat -1  -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card ms-2 me-2" style="width: 17rem">
+            <img
+              src="https://contents.mediadecathlon.com/p2688758/k$92253cb6113457a85d06cabefb4fc43d/yoga-mat-4-mm-thick-185-x-65-cm-polyurethane-light-blue-dynamic.jpg?format=auto&quality=70&f=768x0"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">DOMYOS</h5>
+              <p class="card-text">
+                <b>Yoga Mat, 4 mm thick, 185 x 65 cm, Polyurethane </b> - Light
+                Blue, Dynamic
+              </p>
+              <h4>₹4,999</h4>
+              <a href="./add.html" class="btn rounded-0" id="button1">Add to Cart</a>
+              <a href="./checkout.html" class="btn rounded-0" id="button2">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- yoga mat -2  -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card ms-2 me-2" style="width: 17rem">
+            <img
+              src="https://contents.mediadecathlon.com/p2688747/k$160764fa4cf4e9ddc7b11d8a3fbb60c4/yoga-mat-5-mm-thick-185-x-61-cm-lightweight-tpe-terracotta-dynamic.jpg?format=auto&quality=70&f=768x0"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">DOMYOS</h5>
+              <p class="card-text">
+                <b>Yoga Mat, 5 mm thick, 185 x 61 cm, Lightweight, TPE </b>-
+                Terracotta, Dynamic
+              </p>
+              <h4>₹2,499</h4>
+              <a href="./add.html" class="btn rounded-0" id="button1">Add to Cart</a>
+              <a href="./checkout.html" class="btn rounded-0" id="button2">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- yoga mat -3  -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card ms-2" style="width: 17rem">
+            <img
+              src="https://contents.mediadecathlon.com/p2754682/k$3b1e70ded996629dabc18ac4e32a664b/yoga-mat-4-mm-thick-172-x-58-cm-foam-blue-lightweight-for-soft-yoga.jpg?format=auto&quality=70&f=768x0"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">KIMJALY</h5>
+              <p class="card-text">
+                <b>Yoga Mat, 4 mm thick, 172 x 58 cm, Foam</b> - Blue,
+                Lightweight, For Soft Yoga
+              </p>
+              <h4>₹399</h4>
+              <a href="./add.html" class="btn rounded-0" id="button1">Add to Cart</a>
+              <a href="./checkout.html" class="btn rounded-0" id="button2">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- yoga mat -4  -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card ms-2" style="width: 17rem">
+            <img
+              src="https://contents.mediadecathlon.com/p2688756/k$eadcd6b1cf737643c51ff757893c5d8e/yoga-mat-6-mm-thick-183-x-61-cm-with-strap-foam-green-for-soft-yoga.jpg?format=auto&quality=70&f=768x0"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">KIMJALY</h5>
+              <p class="card-text">
+                <b>Yoga Mat, 6 mm thick, 183 x 61 cm, with Strap, Foam </b> -
+                Green, For Soft Yoga
+              </p>
+              <h4>₹999</h4>
+              <a href="./add.html" class="btn rounded-0" id="button1">Add to Cart</a>
+              <a href="./checkout.html" class="btn rounded-0" id="button2">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    
+      <!-- DUMBELLS -->
+      <h4 id="sec2">DUMBELLS</h4>
+      <div class="row ms-2 mb-3">
+        <!-- dumbell-1  -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card me-2" style="width: 17rem">
+            <img
+              src="https://contents.mediadecathlon.com/p2539235/34952d676b7bbf3bd1b1e32738f50778/p2539235.jpg?format=auto&quality=70&f=1024x0"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">CORENGTH</h5>
+              <p class="card-text">
+                <b
+                  >5 kg Cross Training and Weight Training Hexagonal Dumbbell
+                </b>
+                - Black
+              </p>
+              <h4>₹1,999</h4>
+              <a href="#" class="btn rounded-0" id="button1">Add to Cart</a>
+              <a href="#" class="btn rounded-0" id="button2">Buy Now</a>
+            </div>
+          </div>
+        </div>
+        <!-- dumbell -2  -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card ms-2 me-2" style="width: 17rem">
+            <img
+              src="https://contents.mediadecathlon.com/p2539316/d58481c50db74ad0bdaecdbd06c1ed81/p2539316.jpg?format=auto&quality=70&f=1024x0"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">CORENGTH</h5>
+              <p class="card-text">
+                <b
+                  >7.5 kg Cross Training and Weight Training Hexagonal Dumbbell </b
+                >- Black
+              </p>
+              <h4>₹2,499</h4>
+              <a href="#" class="btn rounded-0" id="button1">Add to Cart</a>
+              <a href="#" class="btn rounded-0" id="button2">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- dumbell -3  -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card ms-2" style="width: 17rem">
+            <img
+              src="https://contents.mediadecathlon.com/p2720254/16ce4a3748b54af114b6f1b0f92829f8/p2720254.jpg?format=auto&quality=70&f=1024x0"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">DOMYOS</h5>
+              <p class="card-text">
+                <b>3 kg PVC Dumbbells Hex Shaped with 2 Years Warranty</b> -
+                Grey - Set of 2
+              </p>
+              <h4>₹1,799</h4>
+              <a href="#" class="btn rounded-0" id="button1">Add to Cart</a>
+              <a href="#" class="btn rounded-0" id="button2">Buy Now</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- dumbell -4  -->
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <div class="card ms-2" style="width: 17rem">
+            <img
+              src="https://contents.mediadecathlon.com/p2539231/764eadb663be0e555fcf546451cbc2ba/p2539231.jpg?format=auto&quality=70&f=1024x0"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">CORENGTH</h5>
+              <p class="card-text">
+                <b
+                  >10 kg Cross Training and Weight Training Hexagonal Dumbbell
+                </b>
+                - Black
+              </p>
+              <h4>₹999</h4>
+              <a href="#" class="btn rounded-0" id="button1">Add to Cart</a>
+              <a href="#" class="btn rounded-0" id="button2">Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESISTANCE BANDS -->
+      <h4 id="sec3">RESISTANCE BANDS</h4>
+      <div class="row mb-3">
+       <!-- resistance band-1  -->
+         <div class="col-lg-3 col-md-6 col-sm-12 ">
+             <div class="card me-2" style="width: 17rem;">
+                 <img src="https://contents.mediadecathlon.com/p1813680/c79ef2674467e77f3b60b0af55e0206b/p1813680.jpg?format=auto&quality=70&f=1024x0" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">CORENGTH</h5>
+                   <p class="card-text"><b>25 kg Weight Training Resistance Band for Home Gym Workout </b> - Yellow</p>
+                   <h4>₹1,999</h4>
+                   <a href="#" class="btn rounded-0"  id="button1">Add to Cart</a>
+                   <a href="#" class="btn rounded-0" id="button2">Buy Now</a>
+                 </div>
+               </div>
+         </div>
+          <!-- reistance bands -2  -->
+         <div class="col-lg-3 col-md-6 col-sm-12">
+             <div class="card me-2" style="width: 17rem;">
+                 <img src="https://contents.mediadecathlon.com/p2096115/46c81acb8b0e359923d8464514729786/p2096115.jpg?format=auto&quality=70&f=1024x0" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">CORENGTH</h5>
+                   <p class="card-text"><b>35 kg Weight Training Elastic Band  - </b> Orange</p><br>
+                   <h4>₹999</h4>
+                   <a href="#" class="btn rounded-0"  id="button1">Add to Cart</a>
+                   <a href="#" class="btn rounded-0" id="button2">Buy Now</a>
+                 </div>
+               </div>
+         </div>
+
+          <!-- resistance -3  -->
+         <div class="col-lg-3 col-md-6 col-sm-12">
+             <div class="card" style="width: 17rem;">
+                 <img src="https://contents.mediadecathlon.com/p1246728/c889f6696f83d5f74ff98c10f7a2d0e3/p1246728.jpg?format=auto&quality=70&f=1024x0" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">DOMYOS</h5>
+                   <p class="card-text"><b>Weight Training Elastic Band 45 kg- </b>Red</p><br>
+                   <h4>₹1,299</h4>
+                   <a href="#" class="btn rounded-0"  id="button1">Add to Cart</a>
+                   <a href="#" class="btn rounded-0" id="button2">Buy Now</a>
+                 </div>
+               </div>
+         </div>
+         
+          <!-- resistance -4  -->
+         <div class="col-lg-3 col-md-6 col-sm-12">
+             <div class="card " style="width: 17rem;">
+                 <img src="https://contents.mediadecathlon.com/p2096129/6f5bba49078d302d06df1a2d0720315b/p2096129.jpg?format=auto&quality=70&f=1024x0" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">CORENGTH</h5>
+                   <p class="card-text"><b>Weight Training Elastic Band 60 kg - </b> Black</p><br>
+                   <h4>₹999</h4>
+                   <a href="#" class="btn rounded-0"  id="button1">Add to Cart</a>
+                   <a href="#" class="btn rounded-0" id="button2">Buy Now</a>
+                 </div>
+               </div>
+         </div>
+      </div>
+
+      <!-- WATERBOTTES -->
+      <h4 id="sec4">WATERBOTTLES</h4>
+      <div class="row mb-3">
+       <!--  bottle-1  -->
+         <div class="col-lg-3 col-md-6 col-sm-12 ">
+             <div class="card me-2" style="width: 17rem;">
+                 <img src="https://contents.mediadecathlon.com/p2421852/bbaa57ad33ac7b019d8cf7ab70df49b9/p2421852.jpg?format=auto&quality=70&f=1024x0" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">CORENGTH</h5>
+                   <p class="card-text"><b>Bodybuilding Gallon Bottle 2.2L, Leak-Proof Cap</b> - Grey</p><br>
+                   <h4>₹599</h4>
+                   <a href="#" class="btn rounded-0"  id="button1">Add to Cart</a>
+                   <a href="#" class="btn rounded-0" id="button2">Buy Now</a>
+                 </div>
+               </div>
+         </div>
+          <!-- bottle -2  -->
+         <div class="col-lg-3 col-md-6 col-sm-12">
+             <div class="card me-2" style="width: 17rem;">
+                 <img src="https://contents.mediadecathlon.com/p2009270/20973c285c292243aa9bc0694ff68752/p2009270.jpg?format=auto&quality=70&f=1024x0" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">KIPRUN</h5>
+                   <p class="card-text"><b>Running Hand Flask with Adjustable Strap  - </b> Orange</p><br>
+                   <h4>₹999</h4>
+                   <a href="#" class="btn rounded-0"  id="button1">Add to Cart</a>
+                   <a href="#" class="btn rounded-0" id="button2">Buy Now</a>
+                 </div>
+               </div>
+         </div>
+
+          <!-- bottle -3  -->
+         <div class="col-lg-3 col-md-6 col-sm-12">
+             <div class="card" style="width: 17rem;">
+                 <img src="https://contents.mediadecathlon.com/m18025999/0b43d99af090e87fd695f5ec0e8516ac/m18025999.jpg?format=auto&quality=70&f=1024x0" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">HYDRAPAK</h5>
+                   <p class="card-text"><b> Hydrapak Stow Flexible Bottle-Sutro -</b><br>Green</p><br>
+                   <h4>₹1,700</h4>
+                   <a href="#" class="btn rounded-0"  id="button1">Add to Cart</a>
+                   <a href="#" class="btn rounded-0" id="button2">Buy Now</a>
+                 </div>
+               </div>
+         </div>
+         
+          <!-- bottle -4  -->
+         <div class="col-lg-3 col-md-6 col-sm-12">
+             <div class="card " style="width: 17rem;">
+                 <img src="https://contents.mediadecathlon.com/m18025897/44e330378f62f9993c2e3770f078b4fc/m18025897.jpg?format=auto&quality=70&f=1024x0" class="card-img-top" alt="...">
+                 <div class="card-body">
+                   <h5 class="card-title">HYDRAPAK</h5>
+                   <p class="card-text"><b>Hydrapak Stow Flexible Bottle-Mountain Edition</b> Sutro Green (350ML)</p><br>
+                   <h4>₹1,525</h4>
+                   <a href="#" class="btn rounded-0"  id="button1">Add to Cart</a>
+                   <a href="#" class="btn rounded-0" id="button2">Buy Now</a>
+                 </div>
+               </div>
+         </div>
+      </div>
+    </div>
+    <br>
+
+  </body>
+</html>

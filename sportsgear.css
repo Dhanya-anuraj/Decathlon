@@ -1,0 +1,69 @@
+
+h4, .card-text{
+  font-family: "Parkinsans", sans-serif;
+  /* font-optical-sizing: auto; */
+  /* font-weight: ; */
+  /* font-style: normal; */
+  font-size:10px
+}
+
+#button1, #button2{
+    background-color: blue;
+    color:white;
+    width:115px;
+
+}
+
+#button1:hover{
+    color:blue;
+    background-color: white;
+    border:1px solid blue;
+    font-weight: 500;
+}
+#button2:hover{
+    color:blue;
+    background-color: white;
+    border:1px solid blue;
+    font-weight: 500;
+}
+
+.card:hover{
+  border: 1px solid black;
+  background-color: rgba(128, 128, 128, 0.1);
+  box-shadow: 1px 5px 3px 1px rgba(0, 0, 0, 0.6);
+
+}
+
+#button3 {
+    background-color: blue;
+    color:white;
+    width:115px;
+
+}
+#button3:hover{
+    color:blue;
+    background-color: white;
+    border:1px solid blue;
+    font-weight: 500;
+    
+}
+
+#dropbox{
+    background-color: blue;
+}
+
+#dropitem{
+    color:white;
+}
+#dropitem:hover{
+    color:blue;
+}
+
+#banner{
+    margin-top: 8%;
+    background-image: url(https://img.freepik.com/premium-photo/tennis-ball-water-with-racket-tennis-balls_854727-146842.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    
+}
